@@ -20,15 +20,15 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-   res.render('About/about')
+   res.render('About/About')
 })
 
 app.get('/contact', (req, res) => {
-   res.render('Contact/contact')
+   res.render('Contact/Contact')
 })
 
 app.get('/menu', (req, res) => {
-   res.render('Menu/menu')
+   res.render('Menu/Menu')
 })
 
  app.get('/reservation', (req, res) => {
