@@ -1,0 +1,83 @@
+.f-reserver{
+	width: 100%;
+	height: 380px;
+}
+.square{
+	width: 100%;
+	height: 380px;
+	background-color: black;
+	opacity: 0.7;
+	filter: alpha(opacity=60);
+	position: absolute;
+	top: 150px;
+}
+.title{
+	position: absolute;
+    left: 25px;
+    padding: 30px 70px;
+    top: 350px;
+}
+.Reservation{
+	width: 100%;
+	height: 1200px;
+}
+.formR{
+	float: left;
+    width: 65.33%;
+    padding: 30px 100px;
+    height: 350px;
+    margin-top: 60px;
+}
+.garis{
+	width: 50px;
+	height: 3px;
+	background-color: #E9B947;
+	margin-bottom: 20px;
+}
+.form-control{
+	border: 1px solid #E9B947;
+	border-radius: 5px;
+	width: 85%;
+	height: 38px;
+	padding: 0 30px;
+	margin-bottom: 15px;
+}
+.form-controlT{
+	border: 1px solid #E9B947;
+	border-radius: 5px;
+	width: 42.5%;
+	height: 38px;
+	padding: 0 30px;
+	margin-bottom: 15px;
+}
+.form-controlM{
+	border: 1px solid #E9B947;
+	border-radius: 5px;
+	width: 85%;
+	height: 150px;
+	padding: 0 30px;
+	margin-bottom: 15px;
+}
+.ContactInfo{
+	float: left;
+    width: 34.67%;
+    padding: 30px 50px;
+    height: 350px;
+    margin-top: 60px;
+}
+.info{
+	color: black;
+	margin : 20px auto;
+}
+.logo{
+	width: 32px;
+	height: 32px;
+}
+.tombolS{
+	background-color: #E9B947;
+	color: white;
+	width: 20%;
+	height: 38px;
+	border: none;
+	border-radius: 5px;
+}
