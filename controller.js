@@ -16,23 +16,23 @@ app.use(express.static(path.join(__dirname, 'views')));
 
 //pages
 app.get('/', (req, res) => {
-   res.render('Home/home')
+   res.render('home')
 })
 
 app.get('/about', (req, res) => {
-   res.render('About/About')
+   res.render('About')
 })
 
 app.get('/contact', (req, res) => {
-   res.render('Contact/Contact')
+   res.render('Contact')
 })
 
 app.get('/menu', (req, res) => {
-   res.render('Menu/Menu')
+   res.render('menu')
 })
 
  app.get('/reservation', (req, res) => {
-    res.render('Reservation/Reservation')
+    res.render('Reservation')
  })
 
 app.get('*', (req, res) => {
